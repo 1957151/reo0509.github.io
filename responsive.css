@@ -1,0 +1,17 @@
+@media screen and(max-width:1000px){
+    .plofile{
+        width:100% 
+    }
+    .fav-item img{
+        margin-right: 100px;
+    }
+    .fav-items p{
+        margin-left: 30px;
+    }
+}
+
+@media screen and(max-width:500px){
+    .fav-item{
+        width:100%;
+    }
+}
