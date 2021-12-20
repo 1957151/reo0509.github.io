@@ -100,11 +100,11 @@ ul{
 .container{
     width:100%;
     margin:0 auto;
+    max-width: 1280px;
     font-family: 'Corben', cursive;
+    background-color: #f5f5f5;
 }
-img{
-    width: 100%;
-}
+
 a{
     text-decoration: none;
 }
@@ -161,6 +161,7 @@ h2{
 .pro-items{
     display:flex;
     width:50%;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 auto;
 }
@@ -186,23 +187,32 @@ h2{
     width:90%;
     margin:0 auto;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 .fav-items{
     display:flex;
-    margin-left: 50px;
+    text-align: center;
 }
 .fav-item{
     width:33.3333%;
-    flex-shrink: 0;
+    flex: auto;
 }
 .fav-item img{
-    margin-left:50px;
     height: 200px;
     width:200px;
     border-radius: 60%;
 }
+img{
+    width: 100%;
+}
 .fav-item p{
-    width:80%;
-    text-align: center;
+    width:90%;
+    vertical-align:middle;
     margin-top:20px;
     line-height: 24px;
+}
+footer{
+    background-color: #808080;
 }
